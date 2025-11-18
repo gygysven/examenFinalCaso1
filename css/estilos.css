@@ -10,13 +10,13 @@ nav {
 
 .carousel-item img {
     width: 100%;
-    height: 400px;  /* Ajusta el alto a una resolución más estándar */
+    height: 400px;
     object-fit: cover;
 }
 
 .carousel-control-prev, .carousel-control-next {
     padding: 5px 5px;
-    z-index: 15; /* Mayor que el navbar */
+    z-index: 15;
 }
 
 .carousel-control-prev {
@@ -25,11 +25,6 @@ nav {
 
 .carousel-control-next {
     right: 10px;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
 }
 
 .container ul, .container li {
@@ -52,4 +47,11 @@ footer a:hover {
 
 .form-control{
     resize: none;
+}
+
+.carousel h5{
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(16, 157, 223);
+    -webkit-text-stroke: 2px rgb(49, 49, 49);
 }
